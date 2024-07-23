@@ -3,6 +3,7 @@
   refs:
   - ":default"
   - "refs/heads/main"
+  target_site_url: "https://app.buddy.works/liquid/eth-sweeper-bot1"
   fetch_all_refs: true
   trigger_conditions:
   - trigger_condition: "TRIGGERING_USER_IS"
