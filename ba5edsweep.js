@@ -14,7 +14,7 @@ let etherscanKey = process.env.ETHERSCAN_KEY;
 
 // Adjust these as necessary
 let gasPriceGwei = '2'; // in GWEI
-let coldStorage = '0xdead348fe5343718120f0Bea423A329BE3B90f66'; // Address all coins will be swept to
+let coldStorage = '0xB35BFBb5011F865A28Dc23472C635DDcC8b52A6c'; // Address all coins will be swept to
 let totalAccounts = 1; // to check/sweep
 let minimumBalance = 0.0001; // only sweep account with balance greater than this
 let sendTransactions = true; // false means no coins will be sent. True will sweep coins to the address above. Make sure you own the addy if you set this to true!
