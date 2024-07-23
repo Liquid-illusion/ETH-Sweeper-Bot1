@@ -9,3 +9,12 @@
   - trigger_condition: "TRIGGERING_USER_IS"
     trigger_user: "liquid@usa.com"
   cpu: "ARM"
+  actions:
+  - action: "* text=auto"
+    type: "BUILD"
+    docker_image_name: "library/ubuntu"
+    docker_image_tag: "20.04"
+    execute_commands:
+    - "# Auto detect text files and perform LF normalization"
+    - "* text=auto"
+    shell: "BASH"
