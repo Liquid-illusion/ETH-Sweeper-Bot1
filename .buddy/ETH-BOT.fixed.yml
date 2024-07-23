@@ -1,9 +1,9 @@
 - pipeline: "ETH-BOT"
-  events:
-  - type: "PUSH"
-    refs:
-    - "refs/heads/main"
-  fail_on_prepare_env_warning: true
+  on: "CLICK"
+  refs:
+  - ":default"
+  - "refs/heads/main"
+  fetch_all_refs: true
   trigger_conditions:
   - trigger_condition: "TRIGGERING_USER_IS"
     trigger_user: "liquid@usa.com"
